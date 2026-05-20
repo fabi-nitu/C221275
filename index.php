@@ -1,8 +1,4 @@
-<?php
-    <?php
-include "header.php";
-
-
+<?php include "header.php"; ?>
 
 <div class="container">
     <div class="card col-md-8 mx-auto mt-3">
