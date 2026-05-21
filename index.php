@@ -25,7 +25,7 @@ session_start();
         <h3 class="text-center text-secondary">Add User</h3>
     </div>
     <div class="card-body">
-        <form action="./controllers/addUserController.php" method="POST" enctype="multipart/form-data">
+        <form action="addUserController.php" method="POST" enctype="multipart/form-data">
     <div class="mb-3">
         <label for="name" class="form-label">Name</label>
         <input type="text" name="name" id="name" class="form-control" placeholder="Enter your name" />
