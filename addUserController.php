@@ -19,7 +19,7 @@ if(isset($_POST['submit'])){
     // name validation
     if(empty($name)){
         $_SESSION['name_err'] = 'Name is required';
-        header("location: index.php"); // ৩. redirect path ঠিক করা হয়েছে
+        header("location: index.php"); 
         exit();
     } elseif(!preg_match("/^[a-zA-Z-' ]*$/",$name)) {
         $_SESSION['name_err']= "Only letters and white space allowed";
